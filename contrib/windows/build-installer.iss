@@ -103,7 +103,7 @@ Name: "addtopath"; Description: "Add {#AppName} to PATH"; GroupDescription: "{cm
 
 
 [Files]
-Source: "{#SourceDir}\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "{#SourceDir}\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs sign
 
 
 [Icons]
